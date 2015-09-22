@@ -1,0 +1,26 @@
+import FormatIO.*;
+
+public class Ex2 {
+   public static void main(String[] arg)
+   {     
+      
+      FileOut fout = new FileOut("Lab2out.txt");
+      fout.println("radius = 7 metres ");
+      
+      FileIn fin = new FileIn("..\\Lab2Ex2\\Lab2out.txt");
+      
+      String Str1 = fin.readWord();
+      String Str2 = fin.readWord();
+      Double Doub = fin.readDouble();
+      String Str3 = fin.readWord();
+      
+      Console con = new Console();
+      con.print(Str1 + " ");
+      con.print(Str2 + " ");
+      con.print(Doub + " ");
+      con.println(Str3 + " ");
+      
+      con.print("The correct area is: " + Math.PI * Doub * Doub);
+      
+   }
+}

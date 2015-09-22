@@ -1,0 +1,28 @@
+import FormatIO.*;
+
+
+public class Ex1 {
+   public static void main(String[] arg)
+   {
+	   //System.out.printf("Please enter your first name");
+	   Console con = new Console();
+	   con.print("Please enter your first name");
+	   String firstName = con.readLine();
+	   
+	   
+	   System.out.println("Your first name is " + firstName);
+	   
+	   System.out.println("Please enter your last name");
+	   Console con2 = new Console();
+	   String lastName = con2.readLine();
+	   System.out.println("Your last name is " + lastName);
+	   
+	   
+	   /*
+      Console con = new Console();
+      FileIn fin = new FileIn("..\\Lab1Ex1\\greeting.txt");
+      String word = "";
+      word = fin.readWord(); 
+      con.println(word);*/
+   }
+}

@@ -1,0 +1,21 @@
+import FormatIO.*;
+
+
+public class Ex3 {
+   public static void main(String[] arg)
+   {     
+      
+      FileOut fout = new FileOut("Lab2out.txt");
+      fout.println("radius = 7 metres ");
+      
+      FileIn fin = new FileIn("..\\Lab2Ex2\\Lab2out.txt");
+      
+      String wholeString = fin.readLine();
+      
+     
+
+      
+      con.print("The correct area is: " + Math.PI * Doub * Doub);
+      
+   }
+}
