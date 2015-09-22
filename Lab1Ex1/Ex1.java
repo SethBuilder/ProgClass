@@ -4,8 +4,8 @@ public class Ex1 {
    {
 	   Console con = new  Console();
       con.println("Hello World");
-      FileOut fout = new FileOut("greeting.txt");
-      fout.println("Hi David");
+      FileOut fout = new FileOut("greeting1.txt");
+      fout.println("Hi David 2");
 
    }
 }
